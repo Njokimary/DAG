@@ -64,7 +64,7 @@ def main():
     print(f"Fetched {len(data['rates'])} rates for {data['date']}")
 
     count = load_rates(data)
-     print(f"Inserted {count} new rows.")
+    print(f"Inserted {count} new rows.")
 
     
 
